@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Layout com Flexbox</title>
+
+<style>
+
+body{
+margin: 0;
+font-family: Arial Rounded MT Bold;
+}
+
+header{
+background:grey;
+padding: 20px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+}
+
+nav a{
+color: black;
+text-decoration: none;
+}
+
+main{
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+.card{
+flex: 1;
+background: white;
+padding: 20px;
+border-radius: 10px;
+align-self:auto
+}
+
+footer{
+background:grey;
+color: black;
+text-align: center;
+padding: 12px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+<a href="#">.</a>
+<a href="#">.</a>
+<a href="#">.</a>
+<a href="#">.</a>
+</nav>
+
+</header>
+
+<main>
+
+<div class="card">
+<h2>.</h2>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+
+</div>
+
+<div class="card">
+<h2>CONTEUDO</h2>
+<p>•.  </p>
+<p>• .</p>
+<p>• .</p>
+</div>
+
+<div class="card">
+<h2>.<h2>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+</div>
+
+</main>
